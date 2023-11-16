@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+ <style>
+        *{
+            margin: 0px;
+        }
+
+        .background{
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+            display: flex;
+            height: 50px;
+            background-color:lavenderblush;
+           color: black;
+        }
+        
+        .kotak{
+            background-color: lavenderblush;
+            min-height: 13px;
+        }
+        
+          body{
+            background: gainsboro;
+        }
+        main{
+            border-radius: 20px;
+            background-color: #ffffff;
+            padding: 10px;
+            width: 400px;
+            height: auto;
+            border: 0.5px solid #ffffff;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+            margin: 20px 40px;
+            flex-wrap: wrap;
+            display: flex;
+            background: #ffffff;
+            
+            
+        }
+        
+        .main:hover{
+  transform: scale(1.1);
+  transition: all 3s;
+  filter: blur(8px);
+        cursor: pointer;
+        -webkit-filter: blur(8px);
+
+}
+.main{
+  transition: all 3s;
+  position: relative;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: center;
+    transition: all 3s;
+    cursor: pointer;
+    background: lavenderblush;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+ 
+   <div class="background">All About flower </div>
+   <!-- <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://png.pngtree.com/background/20230610/original/pngtree-love-rose-hd-wallpaper-picture-image_3089259.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/3f/f1/ce/3ff1ceb3c84961cf2b5aa4fc0ea7aa2a.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/01/20/13/58/lavender-6952351_960_720.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2016/11/18/17/14/japanese-cherry-blossom-1835900_1280.jpg" class="d-block w-100" alt="...">
+      </div>
+  </div> -->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <div class="kotak"></div>
+    
+     <form class="form" action="" method="get" >
+                <main class="main">
+                    <img src="https://cdn.pixabay.com/photo/2020/05/04/14/25/roses-5129362_960_720.jpg"width="100%">
+                </main>
+                <main class="main">
+                   <img src="https://images.pexels.com/photos/7477565/pexels-photo-7477565.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="100%">
+                </main>
+                <main class="main">
+                    <img src="https://cdn.pixabay.com/photo/2022/06/19/16/14/lavender-7272255_1280.jpg"width="100%">
+                </main>
+                <main class="main">
+                    <img src="https://images.pexels.com/photos/87815/almond-blossom-cherry-blossom-japanese-cherry-trees-blossom-87815.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"width="100%">
+                </main>
+                </form>
+</body>
+</html>
