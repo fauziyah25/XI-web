@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.button3{
+    width: 825px;
+    height: 50px;
+    background: rgb(78, 78, 219);
+    border-radius: 8px;
+  }
+  .aq{
+    display: flex;
+    justify-content: flex-start;
+    text-shadow: #000000;
+  }
+  body{
+    cursor: pointer;
+  }
+  .p{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container text-center border">
+          <div class="row">
+            <div class="col-12 d-none d-sm-block d-flex justify-content-center align-items-center" style="background-color: hotpink; border: 1px solid red; height: 200px; padding-top: 20px; width:100%;
+            padding-top:auto ;font-size: 50px;text-align: center;">PENDAFTARAN SISWA</div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xm-12" style="background-color: hotpink; border: 1px solid red; height: 500x;"><form>
+                <div class="mb-3">
+                  <label class="aq" for="exampleInputEmail1" class="form-label">nama</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="mb-3">
+                  <label class="aq" for="exampleInputPassword1" class="form-label">umur</label>
+                  <input type="number" min="10" max="20" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <p class="p">
+                    <label for="jurusan-select">JURUSAN</label><br />
+                      <select name="Jurusan" id="Jurusan-select">
+                      <option value="">--Please choose a Jurusan--</option>
+                      <option value="Jurusan">RPL 1</option>
+                      <option value="Jurusan">RPL 2</option>
+                    </select>
+                  </p>
+                  </div>
+                  <div class="mb-3">
+                    <label class="aq" for="exampleInputPassword1" class="form-label">alamat</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="d-grid gap-2">
+                    <input type="checkbox" name="checkbox" id="option" placeholder="check me out">
+                    <button class="btn btn-primary" type="button">Submit</button>
+                  </div></div>
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xm-12 " style="background-color: hotpink; border: 1px solid red; height: 500px; text-shadow: 0.5px 0.5px 0.5px rgba(2, 2, 2, 2.8);">Pendaftaran siswa
+                <p style="color: white; 
+                text-shadow: 0.5px 0.5px 0.5px rgba(2, 2, 2, 2.8);
+                cursor: pointer; padding-right: inherit;
+                text-size-adjust: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 20px;">
+                <div class="container mt-5">
+                <div class="row border p-1 bg-white">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12">Daftar Ulang</div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12"> Rp.1.000.000,00</div>
+                </div>
+                <div class="row border p-2 bg-white">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12">Seragam</div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12"> Rp.500.000,00</div>
+                </div>
+                <div class="row border p-2 bg-white">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12">SPP</div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12"> Rp.195.000,00</div>
+                </div>
+                <div class="row border p-2 bg-primary text-white">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12 ">Total</div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12"> Rp.1.695.000,00</div>
+                </div>
+              </div>
+                <!-- <div>Seragam :<span> Rp.500.000,00</span></div>
+                <div>Daftar Ulang :<span> Rp.1.000.000,00</span></div>
+                <div>SPP :<span> Rp.195.000,00</span></div></div> -->
+            </p>
+          </div>
+    </div>
+</body>
+</html>
